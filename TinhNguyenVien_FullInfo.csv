@@ -1,0 +1,11 @@
+﻿MaTNV,HoTen,NgaySinh,GioiTinh,Email,CCCD,SoDienThoai,DiaChi,GioiThieu,AnhDaiDien,DiemTrungBinh,CapBac,TongSuKienThamGia,MaTaiKhoan,VaiTro,TrangThaiTaiKhoan,LinhVucList,KyNangList
+1,Nguyễn Văn A,1995-05-15,Nam,tnv1@email.com,001123456789,0911111111,"123 Đường Tự Do, Q. Bình Thạnh",Có kinh nghiệm 5 năm làm TNV môi trường.,url_tnv_1,4.7,Cao cấp,15,3,TNV,True,"Môi trường, Phát triển Cộng đồng","Lái xe, Lãnh đạo nhóm"
+2,Trần Thị B,2000-10-20,Nữ,tnv2@email.com,001123456790,0912222222,"456 Đường Hạnh Phúc, Q. Thủ Đức","Sinh viên ngành Truyền thông, đam mê giáo dục.",url_tnv_2,4.5,Trung cấp,8,4,TNV,True,Giáo dục,Truyền thông
+3,Lê Văn C,1998-01-01,Nam,tnv3@email.com,001123456791,0913333333,"789 Đường Đoàn Kết, Q. 1",Có kỹ năng sơ cứu và tổ chức nhóm tốt.,url_tnv_3,4.9,Chuyên nghiệp,25,6,TNV,True,"Y tế Cộng đồng, Cứu trợ Thiên tai","Tổ chức sự kiện, Sơ cứu"
+4,Phạm Thị D,2002-07-25,Nữ,tnv4@email.com,001123456792,0914444444,"101 Đường Hòa Bình, Q. Gò Vấp",Thành viên tích cực trong các hoạt động y tế.,url_tnv_4,4.3,Sơ cấp,3,7,TNV,False,Y tế Cộng đồng,Sơ cứu
+5,Hoàng Văn E,1990-12-30,Nam,tnv5@email.com,001123456793,0915555555,"202 Đường Phát Triển, Q. Tân Bình","Chuyên gia CNTT, thích hỗ trợ kỹ thuật.",url_tnv_5,4.8,Cao cấp,12,9,TNV,True,Công nghệ thông tin,"Lãnh đạo nhóm, Lắp đặt Kỹ thuật"
+6,Mai Thị F,2001-03-10,Nữ,tnv6@email.com,001123456794,0916666666,"303 Đường Yêu Thương, Q. 7",Có kinh nghiệm phiên dịch Tiếng Nhật.,url_tnv_6,4.6,Trung cấp,7,1,ToChuc,True,Giáo dục,"Tiếng Anh, Phiên dịch Tiếng Nhật"
+7,Vũ Đình G,1997-06-05,Nam,tnv7@email.com,001123456795,0917777777,"404 Đường Công Lý, Q. 5",Đam mê văn hóa nghệ thuật và bảo tồn di sản.,url_tnv_7,4.4,Sơ cấp,5,2,ToChuc,True,Bảo tồn Di sản,Kế toán
+8,Đinh Thị H,2003-09-09,Nữ,tnv8@email.com,001123456796,0918888888,"505 Đường Sáng Tạo, Q. 3",Có kỹ năng thiết kế đồ họa và truyền thông.,url_tnv_8,4.7,Cao cấp,10,5,ToChuc,True,Văn hóa - Nghệ thuật,Thiết kế đồ họa
+9,Tạ Văn I,1996-04-12,Nam,tnv9@email.com,001123456797,0919999999,"606 Đường Thân Thiện, Q. 10",Từng tham gia nhiều hoạt động cứu trợ thiên tai.,url_tnv_9,4.9,Chuyên nghiệp,30,8,ToChuc,True,Cứu trợ Thiên tai,Lãnh đạo nhóm
+10,Hồ Thị K,1999-08-28,Nữ,tnv10@email.com,001123456798,0910000000,"707 Đường Bình Minh, Q. 4",Quan tâm đến quyền động vật và thể thao.,url_tnv_10,4.5,Trung cấp,6,10,ToChuc,True,"Quyền động vật, Thể thao",Tổ chức sự kiện
