@@ -5,7 +5,7 @@ from datetime import datetime
 
 # ===== Cấu hình kết nối Windows Authentication =====
 server = r'ADMIN-PC\SQLEXPRESS01'
-database = 'tinhnguyen_db'
+database = 'tinhnguyendb'
 driver = '{ODBC Driver 18 for SQL Server}'
 
 conn_str = f"""

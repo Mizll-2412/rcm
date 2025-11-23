@@ -4,11 +4,13 @@ import re
 import warnings
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
+import io
+import sys
 warnings.filterwarnings('ignore')
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-df_volunteers = pd.read_csv('TinhNguyenVien_FullInfo.csv')
-df_jobs = pd.read_csv('SuKien_FullInfo.csv')
+df_volunteers = pd.read_csv('D:\\rcm\\TinhNguyenVien_FullInfo.csv')
+df_jobs = pd.read_csv('D:\\rcm\\SuKien_FullInfo.csv')
 
 # ĐỔI TÊN CỘT
 
@@ -166,34 +168,34 @@ def get_all_best_matches():
 
 # CHẠY THỬ
 
-print("\n" + "="*70)
-print(" TEST GỢI Ý CHO Volunteer_5:")
-print(recommend_jobs_for_volunteer(4, top_k=3))
+# print("\n" + "="*70)
+# print(" TEST GỢI Ý CHO Volunteer_5:")
+# print(recommend_jobs_for_volunteer(1, top_k=6))
 
-print("\nThông tin tình nguyện viên:")
-show_volunteer_info(4)
+# print("\nThông tin tình nguyện viên:")
+# show_volunteer_info(1)
 
-print("\nChi tiết các công việc được gợi ý:")
-for job in recommend_jobs_for_volunteer(4, top_k=3)["Job ID"]:
-    show_job_info(job)
-    print("-" * 50)
+# print("\nChi tiết các công việc được gợi ý:")
+# for job in recommend_jobs_for_volunteer(1, top_k=6)["Job ID"]:
+#     show_job_info(job)
+#     print("-" * 50)
 
-print("\n" + "="*70)
-print(" TEST GỢI Ý CHO Job_2:")
-print(recommend_volunteers_for_job(2, top_k=3))
+# print("\n" + "="*70)
+# print(" TEST GỢI Ý CHO Job_2:")
+# print(recommend_volunteers_for_job(2, top_k=3))
 
-print("\nThông tin công việc:")
-show_job_info(2)
+# print("\nThông tin công việc:")
+# show_job_info(2)
 
-print("\nChi tiết các tình nguyện viên phù hợp:")
-for vol in recommend_volunteers_for_job(2, top_k=3)["Volunteer"]:
-    show_volunteer_info(int(vol) - 1)
-    print("-" * 50)
+# print("\nChi tiết các tình nguyện viên phù hợp:")
+# for vol in recommend_volunteers_for_job(2, top_k=3)["Volunteer"]:
+#     show_volunteer_info(int(vol) - 1)
+#     print("-" * 50)
 
 # print("\n" + "=" * 70)
 # print("BEST MATCHES:")
 # print(get_all_best_matches().head(10).to_string(index=False))
 
-print("\n" + "=" * 70)
-print("MODEL TRAINING HOÀN TẤT!")
-print(f"Đã xử lý {len(df_volunteers)} tình nguyện viên và {len(df_jobs)} công việc.")
+# print("\n" + "=" * 70)
+# print("MODEL TRAINING HOÀN TẤT!")
+# print(f"Đã xử lý {len(df_volunteers)} tình nguyện viên và {len(df_jobs)} công việc.")
